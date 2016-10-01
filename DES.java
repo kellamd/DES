@@ -146,7 +146,7 @@ public class DES {
 		System.out.println("Decrytped Cypher Text = " + d.Decrypt());
 		
 
-		String msg2 = "0000000100100011010001010110011110001001101010111100110111101111"; // 0123456789abcdef hex in binary
+		String msg2 = "0000000100100011010001010110011110001001101010111100110111101110"; // 0123456789abcdef hex in binary
 		DES f = new DES(msg2, ke);
 
 		System.out.println("Cipher Text = " + f.getCipher());
